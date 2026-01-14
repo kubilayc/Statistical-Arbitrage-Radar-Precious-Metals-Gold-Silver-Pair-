@@ -28,7 +28,4 @@ The core of the strategy. When the Z-Score crosses the threshold (e.g., +2 or -2
 
 ![Z-Score Analysis](z_score_analysis.png)
 
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/Statistical-Arbitrage-Radar-Precious-Metals-Gold-Silver-Pair-.git](https://github.com/your-username/Statistical-Arbitrage-Radar-Precious-Metals-Gold-Silver-Pair-.git)
+
