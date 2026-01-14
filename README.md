@@ -1,6 +1,5 @@
 # 🪙 Precious Metals Arbitrage Radar (Gold & Silver)
 
-## Market Analysis Preview
 ![Project Preview](preview.png)
 
 This tool tracks the statistical relationship between **Gold (GC=F)** and **Silver (SI=F)**. By analyzing the price spread through **Z-Score normalization**, it identifies moments when one metal is significantly overvalued or undervalued relative to the other.
@@ -23,4 +22,5 @@ pip install yfinance pandas matplotlib numpy
 ## Project Preview
 
 ![Market Radar Chart](preview.png)
+
 
