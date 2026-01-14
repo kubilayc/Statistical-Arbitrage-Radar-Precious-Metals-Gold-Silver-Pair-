@@ -1,27 +1,34 @@
-# 🪙 Precious Metals Arbitrage Radar (Gold & Silver)
+# Statistical Arbitrage Radar: Precious Metals (Gold/Silver Pair) 📈💰
 
-![Project Preview](https://github.com/kubilayc/Statistical-Arbitrage-Radar-Precious-Metals-Gold-Silver-Pair-/blob/main/preview.png?raw=true)
+This project implements a **Statistical Arbitrage** strategy focusing on the correlation and cointegration between **Gold (GC=F)** and **Silver (SI=F)**. It uses the "Pairs Trading" logic to identify overbought and oversold conditions in the price ratio.
 
-This tool tracks the statistical relationship between **Gold (GC=F)** and **Silver (SI=F)**. By analyzing the price spread through **Z-Score normalization**, it identifies moments when one metal is significantly overvalued or undervalued relative to the other.
+## 🎯 Project Overview
+Statistical Arbitrage is a quantitative strategy that exploits price inefficiencies between two correlated assets. This tool:
+* Monitors the **Gold/Silver Ratio** in real-time.
+* Calculates the **Z-Score** to detect statistical deviations from the historical mean.
+* Visualizes entry and exit points for mean-reversion trading.
 
-## 🚀 Key Features
-* **Real-time Data:** Fetches latest futures data via Yahoo Finance API.
-* **Statistical Analysis:** Calculates rolling correlation and Z-Score spread.
-* **Visual Signals:** Generates professional-grade charts with buy/sell divergence zones.
-* **Market Neutral Strategy:** Focuses on the relative value between two highly correlated assets.
+## 🛠️ Tech Stack
+* **Python:** Core logic.
+* **yfinance:** Financial data extraction.
+* **Pandas & NumPy:** Time-series analysis and Z-Score calculations.
+* **Matplotlib:** Data visualization.
 
-## 📈 How It Works
-1.  **Normalization:** Since Gold is priced much higher than Silver, the bot scales both prices to a comparable range.
-2.  **Spread Calculation:** It measures the distance between the two normalized prices.
-3.  **Thresholds:** When the Z-Score hits **±2**, it signals a statistical anomaly, suggesting that the prices are likely to converge again.
+## 📊 Visual Analysis
 
-## 🛠️ Installation
-```bash
-pip install yfinance pandas matplotlib numpy
+> **IMPORTANT:** Ensure that your image files are named exactly as below and uploaded to the root folder of this repository for them to appear.
 
-## Project Preview
+### 1. Gold vs. Silver Price Correlation
+Shows how both assets move together over time.
 
-![Market Radar Chart](preview.png)
+![Price Analysis](gold_silver_prices.png)
 
+### 2. Z-Score & Mean Reversion
+The core of the strategy. When the Z-Score crosses the threshold (e.g., +2 or -2), it signals a potential trade.
 
+![Z-Score Analysis](z_score_analysis.png)
 
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/Statistical-Arbitrage-Radar-Precious-Metals-Gold-Silver-Pair-.git](https://github.com/your-username/Statistical-Arbitrage-Radar-Precious-Metals-Gold-Silver-Pair-.git)
